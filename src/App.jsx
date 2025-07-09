@@ -11,6 +11,7 @@ import PostForm from './components/Posts/PostForm';
 import Home from './Pages/Home';
 import Posts from './Pages/Posts';
 import Login from './Pages/Login';
+import ForgetPassword from './Pages/ForgetPassword';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/forgot-password" element={<ForgetPassword/>}/> 
           <Route
             path="/"
             element={
