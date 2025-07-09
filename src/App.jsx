@@ -5,7 +5,7 @@ import { AuthProvider } from './context/AuthContext';
 
 import Navbar from './components/Navbar';
 
-import Register from './pages/Register';
+import Register from './Pages/Register';
 import ProtectedRoute from './components/protectedRoute';
 import PostForm from './components/Posts/PostForm';
 import Home from './Pages/Home';
