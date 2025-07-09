@@ -1,13 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Home from './pages/Home';
 
-import Posts from './pages/Posts';
+
+
 import Navbar from './components/Navbar';
-import Login from './pages/Login';
+
 import Register from './pages/Register';
 import ProtectedRoute from './components/protectedRoute';
 import PostForm from './components/Posts/PostForm';
+import Home from './Pages/Home';
+import Posts from './Pages/Posts';
+import Login from './Pages/Login';
 
 function App() {
   return (
